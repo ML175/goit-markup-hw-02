@@ -1,0 +1,44 @@
+body {
+    background color: #FFFFFF;
+    color: #212121;
+}
+
+.logo {
+    color: #2196F3
+}
+
+.logo span {
+    color: #000000
+}
+
+.contacts-email:active,
+.contacts-email:active:hover {
+
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:#2196F3;
+}
+
+.contact {
+    color:#757575;
+}
+
+.contact .contact-info:hover,
+.contact .contact-info:focus {
+    color: #2196F3;
+}
+
+.benefits-item-title {
+
+}
+
+.benefits-item-text {
+    color: #757575;
+
+}
