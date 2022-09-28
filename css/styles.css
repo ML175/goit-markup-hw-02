@@ -1,10 +1,22 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --primary-background-color: #F5F5F5;
+    --secondary-background-color: #F5F4FA;
+    --portfolio-background-color: #EEEEEE;
+
+}
+
 body {
-    background color: #FFFFFF;
-    color: #212121;
+    background color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-size: 14px;
 }
 
 .logo {
-    color: #2196F3
+    color: var(--accent-color);
 }
 
 .logo span {
@@ -22,23 +34,117 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color:#2196F3;
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color)
+
 }
 
 .contact {
-    color:#757575;
+    color: var(--secondary-text-color);
 }
 
 .contact .contact-info:hover,
 .contact .contact-info:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-.benefits-item-title {
+.hero-title {
+    color: var(--primary-white-color);
+
 
 }
 
-.benefits-item-text {
-    color: #757575;
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.visually-hidden {
+        position: absolute;
+          white-space: nowrap;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          border: 0;
+          padding: 0;
+          clip: rect(0 0 0 0);
+          clip-path: inset(50%);
+          margin: -1px;
+}
+
+.section-item-title {
+    
 
 }
+
+.section-item-text {
+    color: var(--secondary-text-color)
+
+}
+
+.section-title {
+    font-size: 36px;
+}
+
+/* Стилі для портфоліо */
+
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+}
+
+.filter-button {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-background-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.projects-item {
+    background-color: var(--portfolio-background-color);
+
+}
+.projects-title {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+}
+.projects-text {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
