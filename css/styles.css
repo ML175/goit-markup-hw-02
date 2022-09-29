@@ -19,11 +19,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-a {
-    font-style: normal;
-}
-
-
 .page-header {
     background-color: var(--primary-white-color);
 }
@@ -33,6 +28,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
+    font-style: normal;
     line-height: 1.1;
 }
 
@@ -40,16 +36,15 @@ a {
     color: #000000
 }
 
-.site-nav {
-    color: var(--primary-text-color);
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-}
-
 .site-nav-link {
     color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    list-style: none;
 }
 
 .site-nav-link:hover,
@@ -59,26 +54,32 @@ a {
 
 .site-nav-link.current {
     color: var(--accent-color)
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    list-style: none;
 }
 
-.contact-list {
+.contact-info {
     list-style: none;
     color: var(--secondary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em
 }
 
-.contact-list .contact-info:hover {
+.contact-info:hover {
     color: var(--accent-color);
 }
 
 .section-hero {
     background-color: var(--third-background-color);
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
 }
 
 .section-hero-title {
@@ -91,7 +92,7 @@ a {
     text-transform: uppercase;
 }
 
-.section-hero-button {
+.button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -213,21 +214,36 @@ div {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.1;
+    font-style: normal;
 }
 
 .footer-logo-studio {
     color: var(--primary-white-color);
 }
 
+.address-list {
+    list-style: none;
+}
+
 .address-link {
     color: var(--primary-white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;   
 }
 
 .address-contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 
