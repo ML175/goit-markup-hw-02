@@ -121,10 +121,8 @@ a:active {
     text-transform: uppercase;
 }
 
-
-.button:active,
-.button:hover
-.button:focus {
+.button-active:hover
+.button-active:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -212,11 +210,11 @@ div {
     color: var(--primary-white-color);
 }
 
-.address-list {
+.section-address-list {
     list-style: none;
 }
 
-.address-link {
+.section-address-link {
     color: var(--primary-white-color);
     font-family: 'Roboto';
     font-style: normal;
@@ -227,12 +225,12 @@ div {
     text-decoration: none;  
 }
 
-.address-link:hover,
-.address-link:focus {
+.section-address-link:hover,
+.section-address-link:focus {
     color: var(--accent-color);
 }
 
-.address-contact {
+.section-address-contact {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -244,8 +242,8 @@ div {
     text-decoration: none;
 }
 
-.address-contact:hover,
-.address-contact:focus {
+.section-address-contact:hover,
+.section-address-contact:focus {
     color: var(--accent-color);
 }
 
