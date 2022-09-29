@@ -121,7 +121,7 @@ a:active {
     text-transform: uppercase;
 }
 
-.button:hover
+.button:hover,
 .button:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
