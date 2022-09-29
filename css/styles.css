@@ -263,7 +263,7 @@ div {
 }
 
 .filter-list {
-    text-decoration: none;
+    list-style: none;
 }
 
 .filter-button {
@@ -285,7 +285,7 @@ div {
 }
 
 .filter-projects-list {
-    text-decoration: none;
+    list-style: none;
 }
 
 .filter-projects-item {
