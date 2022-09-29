@@ -121,8 +121,8 @@ a:active {
     text-transform: uppercase;
 }
 
-.button-active:hover
-.button-active:focus {
+.button:hover
+.button:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -235,7 +235,7 @@ div {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    color: var(--address-contact-color)
+    color: var(--address-contact-color);
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
