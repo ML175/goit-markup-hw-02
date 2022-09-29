@@ -24,7 +24,7 @@ body {
     background-color: var(--primary-white-color);
 }
 
-.logo {
+.page-logo {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -32,7 +32,7 @@ body {
     line-height: 1.1;
 }
 
-.logo span {
+.page-logo-studio {
     color: #000000
 }
 
@@ -62,11 +62,11 @@ body {
     color: var(--accent-color);
 }
 
-.hero {
+.section-hero {
     background-color: var(--third-background-color);
 }
 
-.hero-title {
+.section-hero-title {
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -76,7 +76,7 @@ body {
     text-transform: uppercase;
 }
 
-.hero-button {
+.section-hero-button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-weight: 700;
