@@ -129,6 +129,7 @@ a:active {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .visually-hidden {
@@ -276,6 +277,7 @@ div {
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    border: 0;
     border-radius: 4px;
 }
 
