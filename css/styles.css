@@ -17,7 +17,7 @@ body {
     font-size: 14px;
     font-style: normal;
     letter-spacing: 0.03em;
-    list-style: none;
+    
 }
 
 .page-header {
@@ -36,12 +36,6 @@ body {
     color: #000000
 }
 
-/* .contact-info {
-    color: var(--secondary-text-color);
-}
-.contact-info:active,
-.contact-info:hover {
-    color: var(--accent-color); */
 .site-nav {
     color: var(--primary-text-color);
     line-height: 1.1;
@@ -58,14 +52,18 @@ body {
 }
 
 .contact-list {
+    list-style: none;
     color: var(--secondary-text-color);
     line-height: 1.1;
     letter-spacing: 0.02em
 }
 
-.contact-list .contact-info:hover,
-.contact-list .contact-info:focus {
+.contact-list .contact-info:hover {
     color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--third-background-color);
 }
 
 .hero-title {
@@ -78,7 +76,7 @@ body {
     text-transform: uppercase;
 }
 
-.button {
+.hero-button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -91,16 +89,20 @@ body {
 }
 
 .visually-hidden {
-     position: absolute;
-     white-space: nowrap;
-     width: 1px;
-     height: 1px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
     overflow: hidden;
     border: 0;
     padding: 0;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+
+.section-list {
+    list-style: none;
 }
 
 .section-item-title {
