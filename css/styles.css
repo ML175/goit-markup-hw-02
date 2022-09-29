@@ -19,6 +19,22 @@ body {
     letter-spacing: 0.03em;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .page-header {
     background-color: var(--primary-white-color);
 }
@@ -57,7 +73,7 @@ body {
     color: var(--accent-color);
 }
 
-.site-nav-link-current {
+.site-nav-link-current:active {
     color: var(--accent-color)
     font-family: 'Roboto';
     font-style: normal;
