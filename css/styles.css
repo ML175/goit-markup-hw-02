@@ -304,8 +304,6 @@ div {
 .filter-projects-title {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -316,11 +314,8 @@ div {
 .filter-projects-text {
     color: var(--secondary-text-color);
     background-color: var(--primary-white-color);
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
 }
 
