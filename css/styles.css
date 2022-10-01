@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: var(--primary-background-color);
+    background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -22,10 +22,6 @@ body {
 }
 
 a:link {
-    text-decoration: none;
-}
-
-a:visited {
     text-decoration: none;
 }
 
@@ -193,8 +189,11 @@ a:active {
     list-style: none;
 }
 
-.section-team-name {
+.section-team-item {
     background-color: var(--primary-white-color);
+}
+
+.section-team-name {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -202,7 +201,6 @@ a:active {
 
 .section-team-text {
     color: var(--secondary-text-color);
-    background-color: var(--primary-white-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -279,6 +277,10 @@ div {
     margin: -1px;
 }
 
+.filter {
+    background-color: var(--primary-white-color);
+}
+
 .filter-list {
     list-style: none;
 }
@@ -309,12 +311,11 @@ div {
 }
 
 .filter-projects-item {
-    background-color: var(--portfolio-background-color);
+    background-color: var(--primary-white-color);
 }
 
 .filter-projects-title {
     color: var(--primary-text-color);
-    background-color: var(--primary-white-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -324,7 +325,6 @@ div {
 
 .filter-projects-text {
     color: var(--secondary-text-color);
-    background-color: var(--primary-white-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
