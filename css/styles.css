@@ -221,6 +221,7 @@ div {
 
 .section-address-list {
     list-style: none;
+    font-style: normal;
 }
 
 .section-address-link {
