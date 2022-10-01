@@ -4,7 +4,6 @@
     --accent-color: #2196F3;
     --secondary-accent-color: #188CE8;
     --primary-white-color: #FFFFFF;
-    --primary-background-color: #F5F5F5;
     --secondary-background-color: #F5F4FA;
     --third-background-color: #2F303A;
     --page-logo-color: #000000;
@@ -18,18 +17,6 @@ body {
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.03em;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
 }
 
 .page-header {
