@@ -291,9 +291,6 @@ div {
 
 .filter-projects-item {
     background-color: var(--primary-white-color);
-}
-
-.filter-projects-item-link {
     text-decoration: none;
 }
 
