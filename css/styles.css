@@ -293,6 +293,10 @@ div {
     background-color: var(--primary-white-color);
 }
 
+.filter-projects-item-link {
+    text-decoration: none;
+}
+
 .filter-projects-title {
     color: var(--primary-text-color);
     font-size: 18px;
