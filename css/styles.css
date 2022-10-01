@@ -293,8 +293,7 @@ div {
     background-color: var(--primary-white-color);
 }
 
-.filter-projects-title,
-.filter-projects-text {
+.filter-projects-link {
     text-decoration: none;
 }
 
